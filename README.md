@@ -46,19 +46,19 @@ Finalmente, los resultados obtenidos se utilizaron para construir un **dashboard
 
 ## 📁 Archivos del proyecto
 
-- 🗃️ [Dataset original](data/raw/synthetic_depression_dataset_v2_5000.csv)
-- 🛠️ [Datos procesados para Power BI](data/processed/)
-- 📓 [Notebook de análisis exploratorio](notebooks/analisis_salud_mental.ipynb)
-- 📊 [Dashboard de Power BI](dashboard/analisis_salud_mental_powerbi.pbix)
+- 🗃️ [Dataset original](https://github.com/VictoriaEstefaniaCardoso/herramientas_digitales_UTNBA-cardoso-victoria/blob/main/data/raw/synthetic_depression_dataset_v2_5000.csv)
+- 🛠️ [Datos procesados para Power BI](https://github.com/VictoriaEstefaniaCardoso/herramientas_digitales_UTNBA-cardoso-victoria/blob/main/data/processed/dataset_powerbi.xlsx)
+- 📓 [Notebook de análisis exploratorio](https://github.com/VictoriaEstefaniaCardoso/herramientas_digitales_UTNBA-cardoso-victoria/blob/main/notebooks/analisis_salud_mental.ipynb)
+- 📊 [Dashboard de Power BI](https://github.com/VictoriaEstefaniaCardoso/herramientas_digitales_UTNBA-cardoso-victoria/blob/main/dashboard/analisis_salud_mental_powerbi.pbix)
 
 ## 🧰 Herramientas utilizadas
 
 - 🐍 Python
 - ☁️ Google Colab
-- 🐼 Pandas
-- 🔢 NumPy
-- 📈 Matplotlib
-- 📊 Seaborn
+  - 🐼 Pandas
+  - 🔢 NumPy
+  - 📈 Matplotlib
+  - 📊 Seaborn
 - 📉 Power BI
 
 ## 🔗 Fuente
