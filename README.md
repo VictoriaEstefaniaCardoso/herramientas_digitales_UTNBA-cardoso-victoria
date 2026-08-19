@@ -26,7 +26,9 @@ El [archivo de datos procesados](data/processed/dataset_powerbi.xlsx) se incorpo
 
 El trabajo se desarrolló en **Python mediante Google Colab**. El [notebook de análisis](notebooks/analisis_salud_mental.ipynb), que contiene el desarrollo y análisis realizado, se encuentra dentro de la carpeta [`notebooks/`](notebooks/) del repositorio.
 
-En una primera etapa, se realizaron exploraciones estructurales y estadísticas sobre los datos crudos. Luego, durante la etapa de preparación, se llevó a cabo un diagnóstico de los datos, verificando los formatos, valores nulos, inconsistencias, columnas sin utilidad y rangos anómalos. A partir de los hallazgos, se realizó la limpieza de los datos, aplicando las correcciones necesarias para obtener un conjunto de datos limpio.
+En una primera etapa, se realizaron exploraciones estructurales y estadísticas sobre los datos crudos. 
+
+Luego, durante la etapa de preparación, se llevó a cabo un diagnóstico de los datos, verificando los formatos, valores nulos, inconsistencias, columnas sin utilidad y rangos anómalos. A partir de los hallazgos, se realizó la limpieza de los datos, aplicando las correcciones necesarias para obtener un conjunto de datos limpio.
 
 Posteriormente, se realizó un análisis exploratorio (**EDA**) de variables cualitativas y cuantitativas de interés. Se elaboraron gráficos para analizar la relación entre los días soleados y la depresión severa; el nivel de ansiedad y el consumo de noticias y redes sociales; y las características sociodemográficas según el nivel de severidad de la depresión.
 
