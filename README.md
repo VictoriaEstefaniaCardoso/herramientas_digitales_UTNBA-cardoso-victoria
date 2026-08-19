@@ -20,17 +20,19 @@ Se utilizó el dataset **Global Mental Health & Lifestyle**, disponible en [Kagg
 
 El [dataset original](data/raw/synthetic_depression_dataset_v2_5000.csv) se incorporó al repositorio dentro de la carpeta [`data/raw/`](data/raw/).
 
-El conjunto de [datos procesados](data/processed/) contiene los archivos preparados y modificados durante el análisis en Google Colab para su posterior utilización en Power BI.
+El [archivo de datos procesados](data/processed/dataset_powerbi.xlsx) se incorporó al repositorio dentro de la carpeta [`data/processed/`](data/processed/) y contiene los datos preparados y modificados durante el análisis en Google Colab para su posterior utilización en Power BI.
 
 ## 🔍 Preparación y análisis de datos
 
-El trabajo se desarrolló en **Python mediante Google Colab**. En una primera etapa, se realizaron exploraciones estructurales y estadísticas sobre los datos crudos. Luego, durante la etapa de preparación, se llevó a cabo un diagnóstico de los datos, verificando los formatos, valores nulos, inconsistencias, columnas sin utilidad y rangos anómalos. A partir de los hallazgos, se realizó la limpieza de los datos, aplicando las correcciones necesarias para obtener un conjunto de datos limpio.
+El trabajo se desarrolló en **Python mediante Google Colab**. El [notebook de análisis](notebooks/analisis_salud_mental.ipynb), que contiene el desarrollo y análisis realizado, se encuentra dentro de la carpeta [`notebooks/`](notebooks/) del repositorio.
+
+En una primera etapa, se realizaron exploraciones estructurales y estadísticas sobre los datos crudos. Luego, durante la etapa de preparación, se llevó a cabo un diagnóstico de los datos, verificando los formatos, valores nulos, inconsistencias, columnas sin utilidad y rangos anómalos. A partir de los hallazgos, se realizó la limpieza de los datos, aplicando las correcciones necesarias para obtener un conjunto de datos limpio.
 
 Posteriormente, se realizó un análisis exploratorio (**EDA**) de variables cualitativas y cuantitativas de interés. Se elaboraron gráficos para analizar la relación entre los días soleados y la depresión severa; el nivel de ansiedad y el consumo de noticias y redes sociales; y las características sociodemográficas según el nivel de severidad de la depresión.
 
 Para el procesamiento, análisis y visualización de los datos se utilizaron **Pandas, NumPy, Matplotlib y Seaborn**.
 
-Finalmente, los resultados obtenidos se utilizaron para construir un **dashboard en Power BI**, compuesto por cinco visualizaciones, tres KPIs y un panel de filtros.
+Finalmente, los resultados obtenidos se utilizaron para construir un **dashboard en Power BI**, compuesto por cinco visualizaciones, tres KPIs y un panel de filtros. El [dashboard en Power BI](dashboard/analisis_salud_mental_powerbi.pbix) se encuentra dentro de la carpeta [`dashboard/`](dashboard/) del repositorio.
 
 ## 📌 Principales resultados
 
